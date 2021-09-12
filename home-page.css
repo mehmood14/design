@@ -57,7 +57,7 @@
   padding-right: 0px;
   padding-right: 0px;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
   .img15 {
     text-align: center !important;
     margin-bottom: 20px;
@@ -65,6 +65,7 @@
   .div3 {
     flex-direction: column;
     justify-content: space-evenly;
+    height: 116vh;
   }
   .discription1 {
     padding-right: 53px;
@@ -79,11 +80,9 @@
     height: 30vh;
   }
   .div2 {
-    height: 123vh;
+    height: 89vh;
   }
-  .div3 {
-    height: 116vh;
-  }
+
   .title {
     font-size: 36px;
     line-height: 48px;
@@ -129,9 +128,13 @@
   background-position: center;
   background-size: cover;
   height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .navbar {
-  height: 73px;
+  height: 90px;
   display: flex;
   align-items: center;
 }
@@ -143,5 +146,9 @@
   border: 1px solid;
   border-radius: 10px;
   background-color: #fff;
-  height: 30px;
+  height: 40px;
+}
+.padText {
+  padding: 0px 100px 0px 100px;
+  text-align: center;
 }
