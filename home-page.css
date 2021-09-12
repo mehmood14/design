@@ -1,0 +1,147 @@
+.main-fluid {
+  overflow-x: hidden;
+}
+.wrapper {
+  background-image: url("./images/Group 87.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  justify-content: center;
+}
+.div1 {
+  height: 64vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.title {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 72px;
+  letter-spacing: 0.25px;
+}
+.discription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+.discription1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+.div2 {
+  background-image: url("./images/Group 69.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.div3heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.25px;
+}
+.div3description {
+  color: #878789;
+}
+.div3 {
+  height: 100vh;
+}
+.col-sm-4,
+.col-sm-6,
+.row {
+  padding-right: 0px;
+  padding-right: 0px;
+}
+@media only screen and (max-width: 700px) {
+  .img15 {
+    text-align: center !important;
+    margin-bottom: 20px;
+  }
+  .div3 {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .discription1 {
+    padding-right: 53px;
+    padding-left: 53px;
+    margin-bottom: 30px;
+  }
+  .images {
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+  }
+  .div2 {
+    height: 123vh;
+  }
+  .div3 {
+    height: 116vh;
+  }
+  .title {
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}
+
+@media (min-height: 1600px) {
+  .div1 {
+    height: 23vh;
+  }
+  .div2 {
+    height: 33vh;
+  }
+  .div3 {
+    height: 32vh;
+  }
+  .images {
+    height: 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .head,
+  .btnn {
+    display: none;
+  }
+  .imgg {
+    text-align: center;
+  }
+}
+
+.col-sm-3 {
+  font-size: 16px;
+  cursor: pointer;
+}
+.imgg {
+  cursor: pointer;
+}
+.footer {
+  background-image: url("./images/Mask Group.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 14vh;
+}
+.navbar {
+  height: 73px;
+  display: flex;
+  align-items: center;
+}
+.btnn {
+  text-align: right;
+  background-color: #fff;
+}
+.download {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 30px;
+}
